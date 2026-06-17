@@ -1,0 +1,30 @@
+# Secrets — NEVER commit
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Hardhat
+artifacts/
+cache/
+deployments.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
